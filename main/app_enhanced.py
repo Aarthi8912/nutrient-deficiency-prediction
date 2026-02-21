@@ -153,7 +153,7 @@ def load_resources():
     try:
         model.load_state_dict(torch.load(MODEL_PATH, map_location="cpu"))
     except FileNotFoundError:
-        return None, None, None
+        return None, None, None, None
         
     model.eval()
     

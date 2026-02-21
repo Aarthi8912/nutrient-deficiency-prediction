@@ -3,14 +3,13 @@ data/*.csv
 NFHS5_IR.csv
 *.csv
 
-# Model artifacts
-*.pth
-*.pkl
-baseline_metrics.json
+# Model artifacts - KEEP THESE (needed for Streamlit Cloud deployment)
+# *.pth
+# *.pkl
 
-# Outputs
-*.png
-*.pdf
+# Outputs - KEEP THESE (needed for app UI)
+# *.png
+# *.pdf
 
 # Python
 __pycache__/
